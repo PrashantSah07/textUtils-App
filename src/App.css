@@ -1,0 +1,86 @@
+.textApp {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 80px auto;
+    padding: 0 200px;
+}
+
+.textApp h1 {
+    font-size: 2.3em;
+}
+
+.textApp textarea {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 200vh;
+    min-height: 200px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.textApp div {
+    display: flex;
+    gap: 10px;
+}
+
+.textApp button {
+    border: none;
+    background-color: rgb(77, 77, 243);
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.textApp button:hover {
+    outline: 4px solid rgba(221, 141, 245, 0.644);
+    transition: 0.2s;
+}
+
+.textApp button:active {
+    transform: scale(1.03);
+}
+
+@media only screen and (max-width:1300px) {
+    .textApp {
+        padding: 0 100px;
+        margin: 40px auto;
+    }
+}
+
+@media only screen and (max-width:1050px) {
+    .textApp {
+        padding: 0 50px;
+    }
+
+    .textApp button {
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .textApp {
+        margin: 50px auto;
+        padding: 0 20px 0 20px;
+    }
+
+    .textApp button {
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+
+    .textApp div {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .textApp h1 {
+        font-size: 2em;
+    }
+
+}
