@@ -3,6 +3,8 @@
     border-bottom-width: 1px;
     padding: 15px 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
 }
 
 .navbar nav {
@@ -23,7 +25,7 @@
 .navbar nav div {
     height: 22px;
     width: 45px;
-    border: 2px solid black;
+    border: 2px solid rgb(105, 101, 101);
     border-radius: 8px;
     display: flex;
     justify-content: flex-start;

@@ -11,12 +11,10 @@ const Navbar = () => {
             document.querySelector('body').style.backgroundColor = 'black';
             document.querySelector('body').style.color = 'white';
             document.querySelector('#bg-Blue').style.transform = 'translateX(100%)';
-            e.target.style.borderColor = 'white'
         } else {
             document.querySelector('body').style.backgroundColor = 'white';
             document.querySelector('body').style.color = 'black';
             document.querySelector('#bg-Blue').style.transform = 'translateX(0%)';
-            e.target.style.borderColor = 'black'
         }
         setBgColor(!bgColor);
     }
