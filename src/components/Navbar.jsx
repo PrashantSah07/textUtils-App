@@ -8,7 +8,7 @@ const Navbar = () => {
 
     function darkMode(e) {
         if (!(bgColor === true)) {
-            document.querySelector('body').style.backgroundColor = 'black';
+            document.querySelector('body').style.backgroundColor = '#0e1125';
             document.querySelector('body').style.color = 'white';
             document.querySelector('#bg-Blue').style.transform = 'translateX(100%)';
         } else {
