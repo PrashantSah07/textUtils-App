@@ -52,7 +52,7 @@ const App = () => {
           <button onClick={removeExtraSpaces}>Remove Extra Spaces</button>
         </div>
         <h1>Your Text Summary</h1>
-        <p><b>{text.trim() === '' ? 0 : text.trim().split(/\s+/).length}</b> words and <b>{text.length}</b> characters.</p>
+        <p><b>{text.trim() === '' ? 0 : text.trim().split(/\s+/).length}</b> words, <b>{text.length}</b> characters and <b>{text.replaceAll(' ', '').length}</b> characters without empty space.</p>
       </div>
     </>
   )
